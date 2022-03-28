@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+td {
+  background: #32cd32;
+  margin: 20px;
+  padding: 20px;
+  border: 5px solid #f28c28;
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+}
+
+div {
+  background: #f28c28;
+  width: 40px;
+  height: 40px;
+  padding: 15px;
+}
+td:nth-of-type(odd) {
+  background: #f28c28;
+  border: 5px solid #32cd32;
+}
+
+td:nth-of-type(odd) div {
+  background: #32cd32;
+}
